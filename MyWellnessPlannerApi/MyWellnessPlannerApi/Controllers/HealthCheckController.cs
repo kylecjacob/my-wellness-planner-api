@@ -3,7 +3,7 @@
 namespace MyWellnessPlannerApi.Controllers
 {
     [ApiController]
-    [Route("")]
+    [Route("/healthcheck")]
     public class HealthCheckController : Controller
     {
         [HttpGet]
