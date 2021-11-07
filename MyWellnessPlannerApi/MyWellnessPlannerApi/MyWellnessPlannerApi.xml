@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyWellnessPlannerApi</name>
+    </assembly>
+    <members>
+        <member name="M:MyWellnessPlannerApi.Controllers.HealthCheckController.IsHealthy">
+            <summary>
+            Used to ensure the health of the application
+            </summary>
+        </member>
+        <member name="M:MyWellnessPlannerApi.Controllers.LoginController.Login(MyWellnessPlannerApi.Models.LoginRequest)">
+            <summary>
+            Is called on logging in to application, checks if valid credentials are sent
+            </summary>
+        </member>
+    </members>
+</doc>
