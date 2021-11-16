@@ -30,7 +30,7 @@ namespace MyWellnessPlannerApi.Controllers
             {
                 var response = new LoginResponse
                 {
-                    Token = _tokenService.GenerateToken(request?.UserName)
+                    Token = _tokenService.GenerateToken(request?.Email)
                 };
                 return Ok(response);
             }
